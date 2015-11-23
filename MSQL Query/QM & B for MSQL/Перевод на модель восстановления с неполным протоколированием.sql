@@ -1,0 +1,6 @@
+/* Set BULK LOGGED  recovery mode*/
+
+Print N'#gs{TASK_SCRIPT_SET_BULK_LOGGED_RECOVERY_MODE}#' 
+USE [master]
+ALTER DATABASE [?DataBaseName?] SET RECOVERY BULK_LOGGED WITH NO_WAIT
+Print N''
