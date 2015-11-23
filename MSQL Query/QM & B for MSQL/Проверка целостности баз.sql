@@ -1,0 +1,3 @@
+/* Check database */
+RaisError (N'#gs{TASK_SCRIPT_TITLE_CHECKDB}#', 0,1) WITH NOWAIT
+DBCC CHECKDB ('?DataBaseName?') WITH NO_INFOMSGS, ALL_ERRORMSGS
