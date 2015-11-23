@@ -1,0 +1,3 @@
+/* Free procedure cache */
+Print N'#gs{TASK_SCRIPT_TITLE_FREE_PROC_CACHE}#'
+DBCC FREEPROCCACHE
